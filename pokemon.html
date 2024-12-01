@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloïse Malavielle - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="vachelino.svg" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logonom" href="index.html" >
+            <div class="logo-container" onclick="playCowSound()">
+                <img class="logovache" src="vachelino.svg" alt="logovache" />
+            </div>
+            <a href="index.html">
+                <h1>
+                    éloïse<br>Malavielle
+                </h1>
+            </a>
+            <audio id="cowSound" src="cow-moo.mp3"></audio>
+        </div>
+      
+        <nav class="header-nav">
+            <a href="https://instagram.com/art_retardement">instagram</a>
+            <a href="en/index.html">EN</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <aside>
+
+
+
+            <div class="menu-burger-div">
+                <img class="menu-burger-image" onclick="afficher_menu()" src="menuburger.svg" alt="menu-burger"
+                    id="menu-burger">
+                <div class="recouvrement-noir" id="recouvrement-noir" onmouseleave="masquer_menu()">
+                    <a href="a-propos.html">à propos</a>
+                    <br>
+                    <a href="contact.html">contact</a>
+                    <br>
+                    <a href="credits.html">crédits</a>
+                </div>
+            </div>
+
+            <a class="bouton-retour" href="index.html">
+                <img id="shake" src="retour-doigt - 1.svg" alt="retour">
+                <div class="retour-droits hover-text"><h5>accueil</h5></div>
+            </a>
+
+        </aside>
+
+        
+
+        </aside>
+        <div class="presentation">
+            <!-- <h2>à propos</h2> -->
+            <div class="texte-presentation">
+                <h3>Les Pokémons<br>envahissent l´art</h3>
+                <h4>série d’acryliques sur toile</h4>
+                <p>Le principe de cette série est de détourner les tableaux les plus célèbres (culture artistique) en incorporrant un Pokémon (culture populaire) en lien avec la composition du tableau et ainsi créer un oxymore tout en apprenant de plus près la touche des artistes usurpés.</p>
+            </div>
+            <!-- <div class="pokemon">
+                <img src="images/pokemon/pokemon4.webp" alt="tableau pokemon">
+            </div>
+            <div class="pokemon">
+                <img src="images/pokemon/pokemon3.webp" alt="tableau pokemon">
+            </div>
+                <img src="images/pokemon/pokemon1.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon2.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon5.webp" alt="tableau pokemon">
+            </div> -->
+            <div class="pokemon grille-1-colonne">
+                <img src="images/pokemon/pokemon4.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon3.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon2.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon5.webp" alt="tableau pokemon">
+                
+            </div>
+            <div class="pokemon">
+                <img class="sketch"src="images/pokemon/pokemon7.webp" alt="tableau pokemon">
+                <img class="sketch"src="images/pokemon/pokemon6.webp" alt="tableau pokemon">
+                <img src="images/pokemon/pokemon1.webp" alt="tableau pokemon">
+            </div>
+        </div>
+            
+
+    </main>
+    <script src="script.js"></script>
+</body> 
+</html>

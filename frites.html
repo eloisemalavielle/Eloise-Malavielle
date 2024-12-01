@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eloïse Malavielle - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="vachelino.svg" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logonom" href="index.html" >
+            <div class="logo-container" onclick="playCowSound()">
+                <img class="logovache" src="vachelino.svg" alt="logovache" />
+            </div>
+            <a href="index.html">
+                <h1>
+                    éloïse<br>Malavielle
+                </h1>
+            </a>
+            <audio id="cowSound" src="cow-moo.mp3"></audio>
+        </div>
+      
+        <nav class="header-nav">
+            <a href="https://instagram.com/art_retardement">instagram</a>
+            <a href="en/index.html">EN</a>
+        </nav>
+        
+    </header>
+
+    <main>
+        <aside>
+
+
+
+            <div class="menu-burger-div">
+                <img class="menu-burger-image" onclick="afficher_menu()" src="menuburger.svg" alt="menu-burger"
+                    id="menu-burger">
+                <div class="recouvrement-noir" id="recouvrement-noir" onmouseleave="masquer_menu()">
+                    <a href="a-propos.html">à propos</a>
+                    <br>
+                    <a href="contact.html">contact</a>
+                    <br>
+                    <a href="credits.html">crédits</a>
+                </div>
+            </div>
+
+            <a class="bouton-retour" href="index.html">
+                <img id="shake" src="retour-doigt - 1.svg" alt="retour">
+                <div class="retour-droits hover-text"><h5>accueil</h5></div>
+            </a>
+
+
+        </aside>
+
+        
+
+        </aside>
+        <div class="presentation">
+            <!-- <h2>à propos</h2> -->
+            <div class="texte-presentation">
+                <h3>Affiche Fictive pour le<br>Championnat Mondial de la Frite à Arras</h3>
+                <h4>affiche imprimée 60 x 80 cm<br>
+                    format A3 et A5<br>images A3 autour de l'événement</h4>
+                <p>À la recherche de la meilleure frite du monde, c'est au championnat d'Arras qu'on la trouve, qu'elle soit belge, à la sauce algérienne, au vinaigre, cuite à la graisse de bœuf,il faut tout simplement la partager autour de la Grande Place.</p>
+            </div>
+            <div class="frite">
+                <img src="images/frite/frite11.webp" alt="affiche frite">
+            </div>
+            <div class="frite">
+                <img src="images/frite/frite10.webp" alt="affiche frite">
+            </div>
+            <div class="frite grille-1-colonne">
+                <img src="images/frite/frite9.webp" alt="affiche frite">
+                <img src="images/frite/frite8.webp" alt="affiche frite">
+                <img src="images/frite/frite7.webp" alt="affiche frite">
+            </div>
+            <div class="frite grille-1-colonne">
+                <img src="images/frite/frite6.webp" alt="affiche frite">
+                <img src="images/frite/frite5.webp" alt="affiche frite">
+                <img src="images/frite/frite4.webp" alt="affiche frite">
+            </div>
+            <div class="frite grille-1-colonne">
+                <img src="images/frite/frite3.webp" alt="affiche frite">
+                <img src="images/frite/frite2.webp" alt="affiche frite">
+                <img src="images/frite/frite1.webp" alt="affiche frite">
+            </div>
+
+        </div>
+            
+
+    </main>
+    <script src="script.js"></script>
+</body> 
+</html>
